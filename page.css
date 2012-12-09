@@ -1,0 +1,445 @@
+body {
+background-image:  url(../../images/newseal.jpg);
+background-position: 5em 10px;
+background-repeat: no-repeat;
+line-height: 1.5em;
+padding: 0 2em 2em 50px;
+font-size: 12pt;
+}
+
+.consent{
+font-size: 12pt;
+}
+
+.consent .header {
+font-size:20px;
+font-weight: bold;
+}
+
+.consent li {
+margin-left: 20px;
+text-indent: -20px;
+}
+
+.page {
+padding: 2em 2em 2em 2em;
+color: #000000;
+}
+
+div, td, p, li , ul{
+  font-family: Garamond, Helvetica, sans-serif;
+}
+
+.menu {
+padding: 1em 2em 1em 2em;
+}
+
+td {
+border-top:thin solid #cccccc;
+}
+
+.login {
+padding: 0em 0 0 2em;
+}
+
+tr {
+vertical-align: top;
+}
+
+.listbox {
+margin-left: 2.5em;
+}
+
+.dropbox {
+margin-left: 2.5em;
+}
+
+.radioOrCheckBox {
+  width: 1em; 
+  height: 1em;
+  vertical-align:middle;
+  margin-left: 2%;
+}
+
+
+.radioOrCheckBoxInactive {
+  width: 1em; 
+  height: 1em;
+  color: #BBBBBB;
+}
+
+label {
+vertical-align: top;
+}
+
+.title{
+color: #2f5d7b;
+padding: 0 10px  0px 50px;
+font-weight: bold;
+margin-left: 200px;
+font-family: Tahoma, Helvetica, sans-serif;
+font-size: 30px;
+line-height: 36px;
+margin-top: 100px;
+margin-bottom: 40px;
+}
+
+.options{
+padding: 25px 0px 0px 25px;
+text-indent: 0px;
+}
+
+.direction{
+color: #000000;
+font-size: 1.0em;
+font-weight: bold;
+line-height: 1.0em;
+padding: 1em 1em 1em 1em;
+background-color: #ddddff;
+}
+
+.direction_big{
+color: #000000;
+font-size: 1.3em;
+font-weight: bold;
+font-family: sans-serif;
+line-height: 1.0em;
+padding: 1em 1em 1em 1em;
+background-color: #ddddff;
+}
+
+
+.subtitlemarg {
+font-size: 1.5em;
+font-family: Tahoma, Helvetica, sans-serif;
+padding: 50px 25px 25px 0;
+text-align: left;
+}
+
+.subtitle {
+/*
+border: medium outset  #e27315;
+border-radius: 2em;
+-moz-border-radius: 2em;
+*/
+font-size: 1.5em;
+font-family: Tahoma, Helvetica, sans-serif;
+padding: 50px 25px 25px 0;
+text-align: left;
+}
+
+.instr {
+text-align: left;
+padding: 15px 3em 0 0px;
+color: #2f5d7b;
+margin-bottom: 0.5em;
+text-indent: -2.2em;
+margin-left: 2.2em;
+
+}
+
+.specialinstr {
+text-align: left;
+padding: 5px 0em 0 0px;
+color: #2f5d7b;
+text-indent: -2.2em;
+margin-left: 2.2em;
+
+}
+
+textarea {
+padding: 3px 3px 3px 3px;
+height: 100px;
+width: 500px;
+font-size: 1em;
+}
+
+.textarea {
+padding: 0px 0px 0px 50px;
+}
+
+table.tabify td {
+border-top: none;
+padding: 0 2% 0 8%;
+text-indent: -8%;
+}
+
+table.tabify td input {
+text-indent: 0;
+}
+
+
+input {
+font-size: 1.25em;
+}
+
+table.tabify input {
+font-size: 1.25em;
+text-indent: -1em;
+}
+
+.radio, .checkbox {
+padding: 0 0 0 0px;
+}
+
+.footnote {
+  padding: 25px 25px 25px 25px;
+  font-size: small;
+}
+
+th {  
+padding: 1% 1% 1% 1%;
+text-align: center;
+width: 100px;
+}
+
+td.subinstr {
+  padding: 0 10px 1em 0em;
+  width: 20em;
+}
+
+td.numbering {
+  padding: 0 10px 1em 0em;
+  width: 3%;
+}
+
+td.qtable_label {
+  padding: 0 1em 1em 1em;
+  text-align:center;
+  border-top: none;
+}
+
+td.radio {
+  text-align: center;
+}
+
+.navitop {
+  padding: 0 0 0 0px;
+}
+
+.navitop input {
+  background-color: #fbac6c; /* lighter orange */
+  color: #2f5d7b;
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.navibottom {
+  padding: 2em 0 0 0;
+}
+
+.navibottom input {
+  background-color: #fbac6c; /* lighter orange */
+  background-color: #ADD8E6; 
+  color: #2f5d7b;
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+.highlight {
+  padding: 2em 0 2em 0;
+  /*color: #A52A2A;*/
+  font-weight: bold;
+  font-style: italic;
+  /*text-decoration: underline;*/
+}
+
+
+.jumpto {
+font-family : Arial, Tahoma, Verdana, Helvetica, sans-serif;
+padding: 2em 0 1em 0;
+background-color: #FAFAD2;
+  background-color: #ADD8E6; 
+font-size:1em;
+margin-top: 10px;
+}  
+
+.jumpto td {
+border-top:none;
+padding: 0 0.5em 0 0.5em;
+  color : #000099;
+}
+
+.jumpto .page_index {
+  text-align: center;
+  background: #FFFFFF;
+  color : #000099;
+  font-family : Arial, Tahoma, Verdana, Helvetica, sans-serif;
+  padding : 2px;
+  margin: 2px;
+  border-color : #FF0000;
+  border-style : groove;
+  border-width : 2px;/* the border property in longhand*/
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.jumpto .page_index_current {
+  text-align: center;
+  background: #FFFFFF;
+  color : #000099;
+  font-family : Arial, Tahoma, Verdana, Helvetica, sans-serif;
+  padding : 2px;
+  margin: 2px;
+  background-color : #7FFFD4;
+  background-color: #ADD899;
+  border-color: #FF4500;
+  border-style : groove;
+  border-width : 2px;/* the border property in longhand*/
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.jumpto .page_index_inactive {
+  text-align: center;
+  background: #FFFFFF;
+  color : #000099;
+  font-family : Arial, Tahoma, Verdana, Helvetica, sans-serif;
+  padding : 2px;
+  margin: 2px;
+  border-color : #F0F8FF;
+  border-style : groove;
+  border-width : 2px;/* the border property in longhand*/
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.disabled {
+  color: #BBBBBB;
+  display: none;
+}
+
+#Q3 .Q3_choice {
+width: 100px;
+}
+#Q4 .Q4_choice {
+width: 100px;
+}
+
+#Q8 .Q8_choice {
+width: 100px;
+vertical-align: middle;
+}
+#Q8 th.Q8_subinstr {
+width: 50px;
+}
+
+#Q13 textarea {
+width: 500px;
+height: 50px;
+}
+
+#QA .qnum {
+display: none;
+}
+
+#QA .instr {
+text-indent: 0;
+margin-left: 0;
+padding: 25px 0 0 0px;
+}
+
+#QA .QA_choice {
+width: 100px;
+}
+
+#QG1 .QG1_choice {
+width: 100px;
+}
+
+#QG2 .QG2_choice {
+width: 100px;
+}
+
+#QG3 .QG3_choice {
+width: 100px;
+}
+
+
+#QB .qnum {
+display: none;
+}
+
+#QB .instr {
+text-indent: 0;
+margin-left: 0;
+padding: 25px 0 0 0px;
+}
+
+#QB .QB_choice {
+width: 100px;
+}
+
+
+#QC .qnum {
+display: none;
+}
+
+#QC .instr {
+text-indent: 0;
+margin-left: 0;
+padding: 25px 0 0 0px;
+}
+
+#QC .QC_choice {
+width: 100px;
+}
+
+
+#QD .qnum {
+display: none;
+}
+
+#QD .instr {
+text-indent: 0;
+margin-left: 0;
+padding: 25px 0 0 0px;
+}
+
+#QG1 .qnum {
+display: none;
+}
+
+#QG1 .instr {
+text-indent: 0;
+margin-left: 0;
+padding: 25px 0 0 0px;
+}
+
+#QG2 .qnum {
+display: none;
+}
+
+#QG2 .instr {
+text-indent: 0;
+margin-left: 0;
+padding: 25px 0 0 0px;
+}
+
+#QG3 .qnum {
+display: none;
+}
+
+#QG3 .instr {
+text-indent: 0;
+margin-left: 0;
+padding: 25px 0 0 0px;
+}
+
+#QCON {
+margin-top: -20px;
+margin-left: 60px;
+}
+
+#QCON .qnum {
+display: none;
+}
+
+.cidinfo {
+color: #FFFFFF;
+margin-left: 250px;
+}
+
+.rr {
+text-align: center;
+}
